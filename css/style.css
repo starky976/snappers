@@ -1,0 +1,200 @@
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 0;
+  min-width: 350px;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background: #fff;
+  color: #000;
+  list-style: none;
+  margin: 0%;
+}
+
+.l-header {
+  max-width: 960px;
+  width: 90%;
+  height: 100px;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.l-header .c-logo {
+  font-family: "Bitter", serif;
+  font-size: 3.5rem;
+  margin-top: 50px;
+}
+.l-header .c-logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.l-footer {
+  background-color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  margin: 0px;
+}
+.l-footer > small {
+  font-size: 12px;
+}
+
+#index .l-footer {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  margin: 0px;
+}
+#index .l-footer > small {
+  font-size: 12px;
+}
+
+#index {
+  background: url(/img/bg-index.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+#index #wrap {
+  margin-top: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.p-gnavi {
+  margin-top: 60px;
+}
+.p-gnavi .list {
+  font-family: "Bitter", serif;
+  font-size: 2rem;
+  margin: 0px;
+  -webkit-transition: all 300ms 0s ease;
+  transition: all 300ms 0s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.p-gnavi .list a {
+  margin: auto 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.p-gnavi .list a:visited {
+  color: #788d98;
+}
+.p-gnavi .list a:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #fff;
+}
+
+#wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.c-button a {
+  font-family: "Bitter", serif;
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 185px;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #009cd3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid #009cd3;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.c-button a:hover {
+  text-decoration: none;
+  color: #009cd3;
+  background-color: #fff;
+}
+
+.content {
+  margin-top: 50px;
+  max-width: 960px;
+  width: 90%;
+  /*
+  @include mixin.mq(tab) {
+    width: 90%;
+  }
+  @include mixin.mq(pc) {
+    width: 90%;
+  }
+  */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content > h1 {
+  font-family: "Bitter", serif;
+  font-size: 100px;
+  line-height: 1;
+  margin-bottom: 50px;
+  color: #fff;
+  border: none;
+}
+.content .p-discription {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 1;
+  color: #fff;
+}

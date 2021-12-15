@@ -1,0 +1,22 @@
+.l-footer {
+  background-color: #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 0px;
+  > small {
+    font-size: 12px;
+  }
+}
+#index .l-footer {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 0px;
+  > small {
+    font-size: 12px;
+  }
+}
